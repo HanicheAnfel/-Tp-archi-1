@@ -42,6 +42,17 @@ Visage v = new Visage(d);
 		d.ajouterObjet(v);
 		d.ajouterObjet(new Etoile(100, 100, 50, 4.f, Color.green, Color.green));
 		d.ajouterObjet(new PolygoneRegulier(5, 240, 40, 10, 2.0f, Color.black, Color.black));
+		
+	
+		d.ajouterObjet(new AnimationForme(
+				new Etoile(350, 100, 50, 8.f, Color.yellow, Color.YELLOW),
+				new MvtCirculaire(250, 250, 180, 0, 5)
+				));
+				
+				d.ajouterObjet(new AnimationForme(
+						new PolygoneRegulier(8, 240, 40, 10, 2.0f, Color.gray, Color.gray),
+						new MvtCirculaire(250, 250, 180, 0, 5)
+						));
 		while(true) {
 		// la zone de dessin se réaffiche
 		d.repaint();
