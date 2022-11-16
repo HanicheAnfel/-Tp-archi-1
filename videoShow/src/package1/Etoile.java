@@ -1,5 +1,6 @@
 package package1;
 
+
 import java.awt.Color;
 import java.awt.geom.Path2D;
 import java.awt.geom.Point2D;
@@ -52,5 +53,11 @@ public class Etoile extends FormeCirculaireReguliere {
         leContour.closePath();
         return leContour;
     }
+
+	@Override
+	public void deplacer() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

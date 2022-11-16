@@ -40,6 +40,8 @@ Visage v = new Visage(d);
 		
 		
 		d.ajouterObjet(v);
+		d.ajouterObjet(new Etoile(100, 100, 50, 4.f, Color.green, Color.green));
+		d.ajouterObjet(new PolygoneRegulier(5, 240, 40, 10, 2.0f, Color.black, Color.black));
 		while(true) {
 		// la zone de dessin se réaffiche
 		d.repaint();

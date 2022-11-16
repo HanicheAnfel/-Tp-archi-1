@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.Color;
 import java.awt.geom.Path2D;
@@ -44,5 +44,11 @@ public class PolygoneRegulier extends FormeCirculaireReguliere {
         leContour.closePath();
         return leContour;
     }
+
+	@Override
+	public void deplacer() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
